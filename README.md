@@ -1,6 +1,5 @@
--  Estudante de Computação na Universidade Estadual da Paraíba
--  Experiência com Python, Java, C e desenvolvimento web
--  Atualmente no 4º período do curso
+-  Alguns projetos e atividades desenvolvidos durante a faculdade.
+
   
 
 <!--
