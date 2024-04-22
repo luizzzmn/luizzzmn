@@ -8,7 +8,7 @@ public class Matriz {
 	
 	public static void main(String[] args) {
 			
-			Result result = JUnitCore.runClasses(MatrizTest.class);
+		Result result = JUnitCore.runClasses(MatrizTest.class);
 	
 	        for (Failure failure : result.getFailures()) {
 	            System.out.println(failure.toString());
