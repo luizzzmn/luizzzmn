@@ -1,0 +1,6 @@
+O primeiro documento nomeado de "Operações Matrizes" conta com as operações de somas entre matrizes, matriz transposta e multiplicação
+por escalar.
+
+Matrizes parte dois trás três novas implementações: Matriz Diagonal, Matriz Triangular Inferior e  Matriz Triangular Superior.
+Ambas as implementações são para verificar tais condições com uma matriz antes já dada, as funções não convertem a matriz dada para as consequentes informadas.
+
