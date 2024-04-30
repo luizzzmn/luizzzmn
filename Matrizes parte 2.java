@@ -1,13 +1,16 @@
-public boolean matrizDiagonal(int matriz[][]) {
-  
-        int posicaoInicial = matriz[0][0];
-        
-        for (int i = 1; i < matriz.length; i++) {
-            if (matriz[i][i] != posicaoInicial) {
-                return false; 
+public static boolean MatrizDiagonal(int[][] matriz) {
+        if (matriz.length != matriz[0].length) // se nao for quadrada
+            return false;
+
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz[i].length; j++) {
+                if (i != j && matriz[i][j] != 0) { // verifica se os elementos fora da diagonal principal são zero
+                    return false;
+                }
             }
         }
-        return true; 
+
+        return true;
     }
     
     public boolean matrizTriangularInferior(int matriz[][]) {
