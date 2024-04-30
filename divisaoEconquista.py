@@ -8,11 +8,12 @@ def mergesort(lista):
   esquerda = mergesort(esquerda)
   direita = mergesort(direita)
 
-  return merde(esquerda, direita)
+  return merge(esquerda, direita)
 
 def merge(esquerda,direita):
   resultado = []
-  i = 0, j = 0
+  i = 0
+  j = 0
   while i < len(esquerda) and j < len(direita):
     if esquerda[i] < direita[j]:
       resultado.append(esquerda[i])
